@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Oeste SP - Contato</title>
+</head>
+<body>
+    <p>Navegue pelas páginas do projeto:</p>
+    <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="veiculos.html">Veículos</a></li>
+        <li><a href="tabela.html">Tabela de preços</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+    <hr>
+    <h1>Entre em contato</h1>
+
+    <p>Preencha os campos abaixo para demonstrar interesse em um veículo.</p>
+
+    <form>
+        <!-- a tag form é responsavel por contar campos para o ususario interagir
+     com o sistema, site ou programa. a tag possui 2 atributos: method e action
+     method -> o desenvolvimento vai escolher 2 valore(GET ou POST)
+     action -> insica o caminho para onde os dados serao enviados os dados sera enviados,
+        geralmente é um script backend para validar os dados. dentro desta tag trabalhamos outras 2 tags 
+     label -> sao rotulos, que nomeamos os campos (nome,senha,email,endereço), 
+     input-> tag responsavel por receber a informação do usuario, nela temoos o atributo 
+        name-> que representa o nome do campo (como fosse um nome da variavel)
+        id-> identificação do campo para tratamento de Javascript
+        type-> tipo do campo, tipo de dado que sera recebido
+        placeholder-> o que sera apresentado dentro do campo ( tratamento UX )
+    -->        
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        </p>
+
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+        </p>
+
+        <p>
+            <label for="veiculo">Veículo de interesse:</label>
+            <input type="text" id="veiculo" name="veiculo" placeholder="Digite o modelo">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Oeste SP - Tabela de Preços</title>
+</head>
+<body>
+    <p>Navegue pelas páginas do projeto:</p>
+    <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="veiculos.html">Veículos</a></li>
+        <li><a href="tabela.html">Tabela de preços</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+    <hr>
+    <h1>Tabela de preços</h1>
+
+    <p>Consulte abaixo uma tabela fictícia com informações dos veículos.</p>
+
+    <table border="1" width="400" height="400">
+        <!-- <table>: Define o contêiner principal da tabela. Tudo o que faz parte da tabela fica dentro desta tag.-->
+        <!-- border (Borda): Define a largura da borda da tabela em pixels.
+        Uso: <table border="1"> cria uma borda simples de 1 pixel em volta da tabela e das células. 
+        <-- width (Largura) e height (Altura): Definem as dimensões da tabela ou de células individuais. Podem ser especificados em pixels (px).
+        Uso na célula: <td width="200" height="50">.-->
+        
+        <tr><!--<tr> (Table Row): Cria uma linha horizontal na tabela.-->
+            <th>Modelo</th>
+            <th>Ano</th>
+            <th>Quilometragem</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>Sedan Executivo</td><!-- <td> (Table Data): Cria uma célula de dados (coluna) dentro de uma linha. O conteúdo real (texto, imagens, links) fica aqui.-->
+            <td>2024</td>
+            <td align="center">18.000 km</td> <!--align (Alinhamento Horizontal): Ajusta o texto ou elemento para a esquerda, centro ou direita. Valores: left, center, right.-->
+            <td>R$ 119.900</td>
+        </tr>
+        <tr>
+            <td>SUV Familiar</td>
+            <td>2023</td>
+            <td align="center">25.000 km</td>
+            <td>R$ 139.900</td>
+        </tr>
+        <tr>
+            <td>Hatch Compacto</td>
+            <td>2024</td>
+            <td align="center">12.000 km</td>
+            <td>R$ 89.900</td>
+        </tr>
+    </table>
+    <table border="1" width="200" height="200">
+        
+        <tr>
+            <th colspan="2">Teste tabelinha</th>
+            <th>letras</th>
+        </tr>
+        <tr> 
+            <td>TOP</td>
+            <td>1</td>
+            <td>A</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+        <tr>
+            <th colspan="2">Nome</th>
+            <th colspan="2">Idade</th>
+            <th colspan="2">Série</th>
+        </tr>
+        <tr>
+            <td>João</td>
+        </tr>
+    </table>
+</body>
+</html>

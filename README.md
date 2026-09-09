@@ -15,10 +15,5 @@ Este repositório reúne projetos práticos e atividades acadêmicas focadas na 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
----
 
-### 💻 Como visualizar os projetos
 
-1. Clone o repositório em sua máquina:
-   ```bash
-   git clone [https://github.com/joaotorresdev/learning-HTML.git](https://github.com/joaotorresdev/learning-HTML.git)
